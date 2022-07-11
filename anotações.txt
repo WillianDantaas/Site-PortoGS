@@ -1,0 +1,2 @@
+.htaccess
+Voce consegue colocar senha pra acessar uma pasta, consegue escolher a versao do PHP que quer usar, consegue direcionar, consegue fazer a tal URL Amigável, consegue fazer muita coisa. Mas em relacao ao código, a segurança está na programação mesmo. Eu uso o .htaccess pra forçar sempre o https:// no lugar do http:// e pra URL amigável

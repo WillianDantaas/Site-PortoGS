@@ -1,0 +1,227 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Variáveis */
+:root {
+    --cinza: #f3f3f3;
+    --cinza2: #e2e2e2;
+    --azul: #184CFC;
+    --azul2: #0038CE;
+    --azullogo: #051232;
+    --azullogo2: #050f66;
+    --verde1: #00AD0C;
+    --verde2: #049b0e;
+    --laranja: #F83C00;
+    --laranja2: #FF551F;
+    
+}
+
+
+/* Aviso ant-fraude */
+
+.att-fraude {
+    text-align: center;
+    padding: 0.2rem;
+    color: black;
+    background-color: var(--cinza2);
+    font: normal 500 0.9rem 'roboto', sans-serif;
+}
+
+.att-fraude i {
+    margin-right: 0.4rem;
+}
+
+@media (max-width: 50rem) {
+    .att-fraude {
+        text-align: center;
+        padding: 0.2rem;
+        color: black;
+        background-color: var(--cinza2);
+        font: normal 500 0.8rem 'roboto', sans-serif;
+    }
+    .att-fraude i {
+        margin-right: 0.3rem;
+    }
+}
+
+
+/* Passos para crédito */
+
+.titulo {
+    text-align: center;
+}
+
+.titulo h1 {
+    margin: 0.3rem;
+    font: normal 600 2em 'Roboto', sans-serif;
+}
+
+.titulo h2 {
+    margin: 0.2rem;
+    color: tomato;
+    font: normal 600 1.2rem 'Roboto', sans-serif;
+}
+
+@media (max-width: 50rem) {
+    .titulo h1 {
+        margin: 0.2rem;
+        font: normal 600 1.2rem 'Roboto', sans-serif;
+    }
+    .titulo h2 {
+        margin: 0.1rem;
+        color: tomato;
+        font: normal 600 0.9rem 'Roboto', sans-serif;
+    }
+}
+
+
+/* Steps para crédito */
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont-steps {
+    width: 15rem;
+    margin: 0.8rem auto;
+    padding: 0.8rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem 0 #0000003f;
+    font: normal 400 1rem 'poppins', sans-serif;
+}
+
+.cont-steps > h1 {
+    font-size: 1rem;
+}
+
+.cont-steps > p {
+    font-size: 0.9rem;
+}
+
+.ico {
+    color: var(--azul);
+    margin: 0.4rem 0;
+    font-size: 4rem;
+}
+
+@media (max-width: 50rem) {
+    .cont-steps {
+        width: 13rem;
+        margin: 0.8rem auto;
+        padding: 0.8rem;
+        text-align: center;
+        border-radius: 1rem;
+        box-shadow: 0 0 0.5rem 0 #0000003f;
+        font: normal 400 0.9rem 'poppins', sans-serif;
+    }
+    .ico {
+        color: var(--azul);
+        margin: 0.2rem 0;
+        font-size: 3rem;
+    }
+}
+
+
+/* Prévia Serviços */
+
+.div1 {
+    background: var(--cinza);
+    padding: 1rem 0;
+}
+
+.div2 {
+    background: white;
+    padding: 1rem 0;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont-serv {
+    background: white;
+    width: 20rem;
+    padding: 0.8rem;
+    margin: 1rem auto;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.7rem 0 #0000003f;
+    font: normal 400 0.9rem 'Poppins', sans-serif;
+}
+
+.cont-serv > h1 {
+    padding: 0.2rem;
+}
+
+.cont-serv > h2 {
+    margin-top: 0.5rem;
+    font: normal 600 1rem 'Poppins', sans-serif;
+}
+
+.cont-list {
+    padding: 1rem;
+    text-align: justify;
+}
+
+.serv-btn {
+    padding: 0.8rem;
+    border-radius: 1.5rem;
+    /* border: solid 0.1rem rgba(0, 0, 0, 0.774); */
+    font: normal 500 1.1rem 'Roboto', sans-serif;
+    color: white;
+    border: none;
+    border-color: var(--laranja);
+    background-color: var(--laranja2);
+}
+
+.serv-btn:hover {
+    cursor: pointer;
+    background-color: var(--laranja);
+}
+
+.center2 {
+    text-align: center;
+}
+
+
+@media (max-width: 50rem) {
+    .cont-serv {
+        width: 15rem;
+        padding: 0.4rem;
+        margin-top: 0.8rem;
+        text-align: center;
+        border-radius: 1rem;
+        box-shadow: 0 0 0.7rem 0 #0000003f;
+        font: normal 400 0.8rem 'poppins', sans-serif;
+    }
+}
+
+.sobre {
+    padding: 1rem 0 5rem 0;
+}
+
+.sobre > p{
+    font: normal 500 1rem 'Roboto', sans-serif;
+    text-align: justify;
+    max-width: 40em;
+    padding: 0.5rem;
+}
+
+.midias {
+    display: inline-flex;
+}
+.midias > a > i {
+    color: var(--azul);
+}
+.r-social {
+    margin: 0.4rem;
+    font-size: 3rem;
+    transform: scale(0.9);
+}
+
+.r-social:hover {
+    transform: scale(1);
+}
