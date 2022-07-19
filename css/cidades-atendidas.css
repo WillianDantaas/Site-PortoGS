@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0 auto;
+    /* font: normal 400 1rem 'Roboto', sans-serif; */
+}
+
+.center {
+    max-width: 75rem;
+    padding: 0 1rem;
+}
+
+/* Variáveis */
+
+:root {
+    --cinza: #f3f3f3;
+    --cinza2: #e2e2e2;
+    --azul: #184CFC;
+    --azul2: #0038CE;
+    --azullogo: #051232;
+    --azullogo2: #050f66;
+    --verde1: #00AD0C;
+    --verde2: #049b0e;
+    --laranja: #F83C00;
+    --laranja2: #FF551F;
+}
+/* azul #02C1F7 */
+
+.cinza {
+    background: var(--cinza);
+}
+
+
+main {
+    height: 60vh;
+}
+
+.tit {
+    padding: 1rem;
+    text-align: center;
+    font: normal 500 1rem 'Roboto', sans-serif;
+}
+
+.subtit {
+    padding: 1rem;
+    text-align: center;
+    font: normal 500 0.9rem 'Poppins', sans-serif;
+}
+
+.inpt-desing > input{
+    height: 0.8rem;
+    /* width: 100%; */
+    font-size: 1rem;
+    background-color: #fff;
+    padding: 0.3rem;
+    border-color: #00000085;
+    border-radius: 0.5rem;
+    background-position: 0.62rem;
+}
+
+.searchcity {
+    text-align: center;
+}
+
+.searchcity > button {
+    color: white;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: var(--laranja2);
+    cursor: pointer;
+    font: normal 400 1rem 'roboto', sans-serif;
+}
+
+.searchcity > button:hover {
+    background-color: var(--laranja);
+}
+.spacedown {
+    padding: 2rem 0;
+}
+
+.btndown {
+    text-align: center;
+}
+
+.btndown button {
+    /* cursor: pointer; */
+    color: white;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: var(--laranja2);
+    cursor: pointer;
+    font: normal 400 1.2rem 'roboto', sans-serif;
+}
+
+.btndown button:hover {
+    background-color: var(--laranja);
+}
+
+.result1 {
+    display: none;
+}
+
+.result2 {
+    display: none;
+}
+
+.resultsearch p {
+    padding: 1rem;
+    text-align: center;
+    font: normal 500 1rem 'roboto', sans-serif;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/geral.css">
+    <link rel="stylesheet" href="./css/cidades-atendidas.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Cidades Atendidas - PortoGS</title>
+</head>
+
+<body>
+    <header>
+        <nav class="center cont-nav">
+            <div class="logotipo">
+                <!-- logotipo -->
+                <a href="https://portogs.com.br/"><img src="img/PORTOGS logotipo black 200px.png"
+                        alt="Logotipo PortoGS"></a>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#job">Serviços <i class="fas fa-caret-down"></i></a>
+                        <ul class="navdown">
+                            <li><a href="solução-sistemas.html">Solução em Sistemas</a></li>
+                            <li><a href="#">Tranporte de Encomendas </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#sobre">Sobre</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="white spacedown">
+            <div class="center tit">
+                <h1>Confira nossas Cidades Atendidas</h1>
+            </div>
+            <div class="center searchcity inpt-desing">
+                <input type="text" id="searchcityipt" placeholder="Digite o CEP">
+                <button class="search" onclick="search()">Buscar</button>
+            </div>
+
+
+            <!-- FUNÇÃO EM JS -->
+            <div class="center">
+            
+                <div class="result1">
+                    <div class="resultsearch">
+                        <p>No momento não atendemos esse CEP, baixe e confira nossas cidades atendidas em PDF ou ligue (19) 3585-1998. Será um prazer ter você como cliente.</p>
+                    </div>
+                </div>
+
+                <div class="result2">
+                    <div class="resultsearch">
+                        <p>OBAA! Atendemos o CEP informado, caso queira estar realizando uma cotação, ligue (19) 3585-1998 ou pelo Whatsapp no mesmo telefone.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section class="cinza spacedown">
+            <div class="center">
+                <div class="subtit">
+                    <h1>Caso queira, pode estar baixando nossa lista de cidades atendidas em PDF.</h1>
+                </div>
+                <div class="btndown">
+                    <button>Baixar PDF</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="center">
+            <div class="warn-footer">
+                <p>PORTOGS
+                </p>
+            </div>
+            <div class="infoemp">
+                <!-- Informações ConsCred -->
+                <h1>PORTOGS ME <i class="far fa-building" style="color: white"></i>
+                </h1>
+                <p>CNPJ: 43.119.963/0001-11</p>
+                <p>CEP: 13660-102</p>
+                <P>Rua Nelson Pereira Lopes, 864 - Box 5, Rodoviária, Porto Ferreira - SP</P>
+                <p>(19) 3585-1998 <i class="fas fa-phone" style="color: white"></i> <i class="fab fa-whatsapp"
+                        style="color: white"></i></p>
+            </div>
+
+            <div class="copyright">
+                <p>PortoGS <i class="far fa-copyright"></i> 2021 Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/cidades-atendidas.js"></script>
+</body>
+
+</html>
