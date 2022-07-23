@@ -99,13 +99,6 @@ main {
     background-color: var(--laranja);
 }
 
-.result1 {
-    display: none;
-}
-
-.result2 {
-    display: none;
-}
 
 .resultsearch p {
     padding: 1rem;
